@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Format</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Email Form</h1>
+            <p id="description">
+                Please fill out the require fields
+            </p>
+        </header>
+
+        <!--First Name-->
+        <form action="" id="survery-form">
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" 
+                class="formControl" placeholder="Enter your name"
+                required>
+            </div>
+        <!--End of first name text-->
+
+        <!--Last Name-->
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" 
+                class="formControl" placeholder="Enter your last name"
+                required>
+            </div>
+        <!--End of last name-->
+
+        <!--Email username-->
+            <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" name="username" id="username" 
+                class="formControl" placeholder="Enter your user name"
+                required>
+            </div>
+        <!--End of user name text-->
+
+        <!--Password-->
+        <div class="form-group">
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" 
+                class="formControl" placeholder="Enter your password"
+                required>
+            </div>
+        <!--End of password text-->
+
+        <!--Select Selection-->
+            <div class="form-group">
+                <p id="quest">Which email domain do you want?</p>
+                <select name="role" id="dropdown" class="formControl" required>
+                    <option value="" disabled selected>Select Current</option>
+                    <option value="Google">Google</option>
+                    <option value="Yahoo">Yahoo</option>
+                    <option value="Hotmail">Hotmail</option>
+                    <option value="AOL">AOL</option>               
+                    <option value="MSN">MSN</option>
+                </select>
+            </div><br>
+        <!--End of Selection text-->
+
+        <!--Submit Button-->
+        <div class="form-group">
+            <button type="submit" id="submit"
+            class="btn">Submit</button>
+        </div>
+        <!--End of submit button-->
+        </form>
+    </div>
+</body>
+</html>
